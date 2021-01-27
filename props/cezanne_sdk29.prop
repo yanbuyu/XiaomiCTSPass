@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/cezanne/cezanne:10/QP1A.190711.020/V12.0.18.0.QJNCNXM:user/release-keys
+ro.build.description=cezanne-user 10 QP1A.190711.020 V12.0.18.0.QJNCNXM release-keys
+ro.build.version.security_patch=2020-12-01
