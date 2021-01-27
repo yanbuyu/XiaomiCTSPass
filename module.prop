@@ -1,0 +1,6 @@
+id=XiaomiCTSPass
+name=Xiaomi CTS Pass
+version=v1.0.0
+versionCode=100
+author=yanbuyu
+description=强制小米设备通过谷歌CTS测试
