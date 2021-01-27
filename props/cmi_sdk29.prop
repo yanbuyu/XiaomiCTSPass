@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/cmi/cmi:10/QKQ1.191117.002/V12.0.9.0.QJACNXM:user/release-keys
+ro.build.description=cmi-user 10 QKQ1.191117.002 V12.0.9.0.QJACNXM release-keys
+ro.build.version.security_patch=2020-10-01

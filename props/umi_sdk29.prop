@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/umi/umi:10/QKQ1.191117.002/V12.0.11.0.QJBCNXM:user/release-keys
+ro.build.description=umi-user 10 QKQ1.191117.002 V12.0.11.0.QJBCNXM release-keys
+ro.build.version.security_patch=2020-10-01
