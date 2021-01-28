@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/cepheus/cepheus:9/PKQ1.181121.001/V10.2.35.0.PFACNXM:user/release-keys
+ro.build.description=cepheus-user 9 PKQ1.181121.001 V10.2.35.0.PFACNXM release-keys
+ro.build.version.security_patch=2018-08-05
