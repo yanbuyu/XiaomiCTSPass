@@ -2,7 +2,7 @@
 ### 强制小米设备通过谷歌CTS测试.
 
 #### 描述信息
-- 此项目为Magisk模块，可在Magisk Manager App或recovery中刷入。
+- 此项目为Magisk模块，可在Magisk Manager App或第三方Recovery(本质还是依赖Magisk环境)中刷入。
 
 #### 支持机型
 - 小米11（安卓11）

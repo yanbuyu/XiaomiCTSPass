@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/apollo/apollo:10/QKQ1.200419.002/V12.0.10.0.QJDCNXM:user/release-keys
+ro.build.description=apollo-user 10 QKQ1.200419.002 V12.0.10.0.QJDCNXM release-keys
+ro.build.version.security_patch=2020-12-01
