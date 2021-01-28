@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/lmi/lmi:11/RKQ1.200826.002/V12.2.3.0.RJKCNXM:user/release-keys
+ro.build.description=lmi-user 11 RKQ1.200826.002 V12.2.3.0.RJKCNXM release-keys
+ro.build.version.security_patch=2020-12-01
