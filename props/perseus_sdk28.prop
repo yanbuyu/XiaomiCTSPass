@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/perseus/perseus:9/PKQ1.180729.001/V11.0.4.0.PEECNXM:user/release-keys
+ro.build.description=perseus-user 9 PKQ1.180729.001 V11.0.4.0.PEECNXM release-keys
+ro.build.version.security_patch=2019-10-01
