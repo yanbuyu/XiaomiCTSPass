@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/polaris/polaris:9/PKQ1.180729.001/V11.0.3.0.PDGCNXM:user/release-keys
+ro.build.description=polaris-user 9 PKQ1.180729.001 V11.0.3.0.PDGCNXM release-keys
+ro.build.version.security_patch=2019-10-01
