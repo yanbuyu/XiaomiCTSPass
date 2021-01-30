@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V10.2.1.0.OAACNXM:user/release-keys
+ro.build.description=gemini-user 8.0.0 OPR1.170623.032 V10.2.1.0.OAACNXM release-keys
+ro.build.version.security_patch=2018-10-01

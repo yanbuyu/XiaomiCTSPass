@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/chiron/chiron:7.1.1/NMF26X/V9.2.7.0.NDECNEK:user/release-keys
+ro.build.description=chiron-user 7.1.1 NMF26X V9.2.7.0.NDECNEK release-keys
+ro.build.version.security_patch=2018-01-01

@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/gemini/gemini:7.0/NRD90M/V9.5.4.0.NAACNFA:user/release-keys
+ro.build.description=gemini-user 7.0 NRD90M V9.5.4.0.NAACNFA release-keys
+ro.build.version.security_patch=2018-05-01

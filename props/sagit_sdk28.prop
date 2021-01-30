@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/sagit/sagit:9/PKQ1.190118.001/V11.0.5.0.PCACNXM:user/release-keys
+ro.build.description=sagit-user 9 PKQ1.190118.001 V11.0.5.0.PCACNXM release-keys
+ro.build.version.security_patch=2019-09-01
