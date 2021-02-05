@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/vangogh/vangogh:10/QKQ1.191222.002/V12.0.6.0.QJVCNXM:user/release-keys
+ro.build.description=vangogh-user 10 QKQ1.191222.002 V12.0.6.0.QJVCNXM release-keys
+ro.build.version.security_patch=2020-09-01
