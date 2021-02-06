@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/pyxis/pyxis:9/PKQ1.181121.001/9.10.31:user/release-keys
-ro.build.description=pyxis-user 9 PKQ1.181121.001 9.10.31 release-keys
-ro.build.version.security_patch=2019-10-01
+ro.build.fingerprint=Xiaomi/pyxis/pyxis:9/PKQ1.181121.001/V11.3.4.0.PFCCNXM:user/release-keys
+ro.build.description=pyxis-user 9 PKQ1.181121.001 V11.3.4.0.PFCCNXM release-keys
+ro.build.version.security_patch=2020-01-01
