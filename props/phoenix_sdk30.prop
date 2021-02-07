@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/phoenix/phoenix:11/RKQ1.200826.002/V12.1.3.0.RGHCNXM:user/release-keys
+ro.build.description=phoenix-user 11 RKQ1.200826.002 V12.1.3.0.RGHCNXM release-keys
+ro.build.version.security_patch=2020-12-01
