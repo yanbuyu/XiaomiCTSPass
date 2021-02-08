@@ -1,3 +1,3 @@
-ro.build.fingerprint=Redmi/picasso/picasso:11/RKQ1.200826.002/V12.1.3.0.RGICNXM:user/release-keys
-ro.build.description=picasso-user 11 RKQ1.200826.002 V12.1.3.0.RGICNXM release-keys
-ro.build.version.security_patch=2020-12-01
+ro.build.fingerprint=Redmi/picasso/picasso:11/RKQ1.200826.002/V12.1.5.0.RGICNXM:user/release-keys
+ro.build.description=picasso-user 11 RKQ1.200826.002 V12.1.5.0.RGICNXM release-keys
+ro.build.version.security_patch=2021-01-01
