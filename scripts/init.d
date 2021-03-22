@@ -11,7 +11,7 @@ if [ -f "$log" ];then
     if [ "$getline" == "$fingerprint" ];then
         rm -f $currentDir/disable
     else
-        touch $currentDir/disable
+        [ ! -f $currentDir/disable ] && touch $currentDir/disable
     fi
 else
     rm -f $currentDir/disable
