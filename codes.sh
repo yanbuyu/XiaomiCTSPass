@@ -17,11 +17,11 @@ create_props(){
             echo "${str}=${propsuffix}" >>$MODPATH/system.prop
         done
         cat $propfile >>$MODPATH/system.prop
-        ##自启目录
-        cat $INSTALLER/scripts/getinfo.sh >$MODPATH/post-fs-data.sh
-        cat $INSTALLER/init.d | sed "s#REPLACE_SDK#$SDK#g;s#REPLACE_MODULE#$NVBASE/modules/XiaomiCTSPass#g" >>$MODPATH/post-fs-data.sh
-        ##
+        ##检测模块与模块信息
+        cp -af $INSTALLER/scripts/init.d $MODPATH/init.d
+        cp -af $INSTALLER/module_pro.prop $MODPATH/module_pro.prop
         cp -af $INSTALLER/module.prop $MODPATH/module.prop
+        cp -af $INSTALLER/post-fs-data.sh $MODPATH/post-fs-data.sh
         ##
         ui_print "- 当前机型代号：$miuidevice"
         ui_print "- 当前安卓SDK版本：$SDK"

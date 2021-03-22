@@ -77,7 +77,7 @@ rm -rf $MODPATH 2>/dev/null
 mkdir -p $MODPATH
 
 #释放文件
-unzip -o "$ZIP" module.prop "props/*" codes.sh init.d 'scripts/*' -d $INSTALLER >&2
+unzip -o "$ZIP" module.prop module_pro.prop post-fs-data.sh "props/*" codes.sh 'scripts/*' -d $INSTALLER >&2
 
 #加载核心
 [ ! -f $INSTALLER/scripts/getinfo.sh ] && abort "! Unable to extract zip file!"
