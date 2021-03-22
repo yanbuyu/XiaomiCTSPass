@@ -6,14 +6,16 @@ currentDir=REPLACE_MODULE
 ##比对指纹
 fingerprint=$(getprop ro.build.fingerprint)
 log=/data/system/fingerprint_record.log
-if [ -f "$log" ];then
-    getline=$(cat $log | sed 's/\n//g')
-    if [ "$getline" == "$fingerprint" ];then
-        rm -f $currentDir/disable
+if [ -d $currentDir ];then
+    if [ -f "$log" ];then
+        getline=$(cat $log | sed 's/\n//g')
+        if [ "$getline" == "$fingerprint" ];then
+            rm -f $currentDir/disable
+        else
+            [ ! -f $currentDir/disable ] && touch $currentDir/disable
+        fi
     else
-        [ ! -f $currentDir/disable ] && touch $currentDir/disable
+        rm -f $currentDir/disable
     fi
-else
-    rm -f $currentDir/disable
 fi
 echo "$fingerprint" >$log
