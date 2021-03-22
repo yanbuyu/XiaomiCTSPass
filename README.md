@@ -27,6 +27,8 @@
 - Redmi K30 Pro（安卓10～11）
 - Redmi K30至尊纪念版（安卓10）
 - Redmi K30S至尊纪念版（安卓10）
+- Redmi K40（安卓11）
+- Redmi K40 Pro（安卓11）
 - Redmi NOTE9（安卓10）
 - 后续会支持更多机型
 
