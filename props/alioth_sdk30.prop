@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/alioth/alioth:11/RKQ1.200826.002/V12.0.6.0.RKHCNXM:user/release-keys
+ro.build.description=alioth-user 11 RKQ1.200826.002 V12.0.6.0.RKHCNXM release-keys
+ro.build.version.security_patch=2021-02-01
