@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/gauguin/gauguin:10/QKQ1.200628.002/V12.0.11.0.QJSCNXM:user/release-keys
+ro.build.description=gauguin-user 10 QKQ1.200628.002 V12.0.11.0.QJSCNXM release-keys
+ro.build.version.security_patch=2021-02-01

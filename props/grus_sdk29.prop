@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/grus/grus:10/QKQ1.190828.002/V12.0.3.0.QFBCNXM:user/release-keys
+ro.build.description=grus-user 10 QKQ1.190828.002 V12.0.3.0.QFBCNXM release-keys
+ro.build.version.security_patch=2020-11-01

@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/sirius/sirius:10/QKQ1.190828.002/V12.0.2.0.QEBCNXM:user/release-keys
+ro.build.description=sirius-user 10 QKQ1.190828.002 V12.0.2.0.QEBCNXM release-keys
+ro.build.version.security_patch=2020-08-01

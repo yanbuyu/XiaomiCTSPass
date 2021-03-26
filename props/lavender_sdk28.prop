@@ -1,0 +1,3 @@
+ro.build.fingerprint=xiaomi/lavender/lavender:9/PKQ1.180904.001/V11.0.7.0.PFGCNXM:user/release-keys
+ro.build.description=lavender-user 9 PKQ1.180904.001 V11.0.7.0.PFGCNXM release-keys
+ro.build.version.security_patch=2020-02-05

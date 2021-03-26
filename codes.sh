@@ -25,7 +25,8 @@ create_props(){
         ##
         ui_print "- 当前机型代号：$miuidevice"
         ui_print "- 当前安卓SDK版本：$SDK"
+        ui_print "- github地址：https://github.com/yanbuyu/XiaomiCTSPass"
     else
-        abort "! 暂未收录该机型"
+        abort "! 暂未收录该机型或该版本"
     fi
 }

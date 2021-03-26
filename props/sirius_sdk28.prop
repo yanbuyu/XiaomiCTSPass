@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/sirius/sirius:9/PKQ1.181121.001/V11.0.3.0.PEBCNXM:user/release-keys
+ro.build.description=sirius-user 9 PKQ1.181121.001 V11.0.3.0.PEBCNXM release-keys
+ro.build.version.security_patch=2019-09-01

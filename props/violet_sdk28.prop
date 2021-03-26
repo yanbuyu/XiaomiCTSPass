@@ -1,0 +1,3 @@
+ro.build.fingerprint=xiaomi/violet/violet:9/PKQ1.181203.001/V11.0.8.0.PFHCNXM:user/release-keys
+ro.build.description=violet-user 9 PKQ1.181203.001 V11.0.8.0.PFHCNXM release-keys
+ro.build.version.security_patch=2020-02-01

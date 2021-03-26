@@ -1,0 +1,3 @@
+ro.build.fingerprint=xiaomi/violet/violet:10/QKQ1.190915.002/V12.0.3.0.QFHCNXM:user/release-keys
+ro.build.description=violet-user 10 QKQ1.190915.002 V12.0.3.0.QFHCNXM release-keys
+ro.build.version.security_patch=2020-09-01
