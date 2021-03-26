@@ -5,40 +5,43 @@
 - 此项目为Magisk模块，可在Magisk Manager App或第三方Recovery（本质还是依赖Magisk环境）中刷入。
 
 #### 支持机型
-- 小米MIX3（安卓9～10）
-- 小米MIX2（安卓7.1～9）
-- 小米MIX2S（安卓9～10）
-- 小米11（安卓11）
-- 小米10至尊纪念版（安卓10～11）
-- 小米10 Pro（安卓10～11）
-- 小米10（安卓10～11）
-- 小米10S（安卓11）
-- 小米10青春版（安卓10～11）
-- 小米9（安卓9～10）
-- 小米9 SE（安卓9～10）
-- 小米CC9（安卓9～10）
-- 小米8（安卓9～10）
-- 小米8屏幕指纹版（安卓9～10）
-- 小米8 SE（安卓9～10）
-- 小米6（安卓7.1～9）
-- 小米5（安卓6～8）
-- 小米平板4（安卓8.1）
-- Redmi K40（安卓11）
-- Redmi K40 Pro（安卓11）
-- Redmi K30 4G（安卓10～11）
-- Redmi K30 5G（安卓10～11）
-- Redmi K30 Pro（安卓10～11）
-- Redmi K30至尊纪念版（安卓10）
-- Redmi K30S至尊纪念版（安卓10）
-- Redmi K20（安卓9～10）
-- Redmi K20 Pro（安卓9～10）
-- Redmi NOTE9（安卓10）
-- Redmi NOTE9 Pro（安卓10～11）
-- Redmi NOTE8（安卓9～11）
-- Redmi NOTE8 Pro（安卓9～10）
-- Redmi NOTE7（安卓9～10）
-- Redmi NOTE7 Pro（安卓9～10）
 - 后续会支持更多机型
+
+| 机型 | 内部代号 | 最低安卓版本 | 最高安卓版本 |
+| :----: | :----: | :----: | :----: |
+| 小米 MIX3 | perseus | Android 9 | Android 10 |
+| 小米 MIX2 | chiron | Android 7.1 | Android 9 |
+| 小米 MIX2S | polaris | Android 9 | Android 10 |
+| 小米11 | venus | Android 11 | Android 11 |
+| 小米10 | umi | Android 10 | Android 11 |
+| 小米10至尊纪念版 | cas | Android 10 | Android 11 |
+| 小米10 Pro | cmi | Android 10 | Android 11 |
+| 小米10S | thyme |  Android 11 | Android 11 |
+| 小米10青春版 | vangogh | Android 10 | Android 11 |
+| 小米9 | cepheus | Android 9 | Android 10 |
+| 小米9 SE | grus | Android 9 | Android 10 |
+| 小米CC9 | pyxis | Android 9 | Android 10 |
+| 小米8 | dipper | Android 9 | Android 10 |
+| 小米8屏幕指纹版 | equuleus | Android 9 | Android 10 |
+| 小米8 SE | sirius | Android 8.1 | Android 10 |
+| 小米6 | sagit | Android 7.1 | Android 9 |
+| 小米5 | gmini | Android 6 | Android 8 |
+| 小米平板4 | clover | Android 8.1 | Android 8.1 |
+| Redmi K40 | alioth | Android 11 | Android 11 |
+| Redmi K40 Pro | haydn | Android 11 | Android 11 |
+| Redmi K30 4G | phoenix | Android 10 | Android 11 |
+| Redmi K30 5G | picasso | Android 10 | Android 11 |
+| Redmi K30 Pro | lmi | Android 10 | Android 11 |
+| Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 10 |
+| Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 10 |
+| Redmi K20 | davinci | Android 9 | Android 10 |
+| Redmi K20 Pro | raphael | Android 9 | Android 10 |
+| Redmi NOTE9 | cannon | Android 10 | Android 10 |
+| Redmi NOTE9 Pro | gauguin | Android 10 | Android 11 |
+| Redmi NOTE8 | ginkgo | Android 9 | Android 11 |
+| Redmi NOTE8 Pro | begonia | Android 9 | Android 10 |
+| Redmi NOTE7 | lavender | Android 9 | Android 10 |
+| Redmi NOTE7 Pro | violet |  Android 9 | Android 10 |
 
 #### 自定义扩展
 - `./XiaoMiCTSPass/props/`下的文件名格式为`机型代号_sdk及版本号.prop`，以安卓11（SDK版本号为30）的小米10机型为例，扩展文件名应为`umi_sdk30.prop`。
