@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/grus/grus:11/RKQ1.200826.002/V12.5.1.0.RFBCNXM:user/release-keys
+ro.build.description=grus-user 11 RKQ1.200826.002 V12.5.1.0.RFBCNXM release-keys
+ro.build.version.security_patch=2021-03-01

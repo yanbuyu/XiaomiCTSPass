@@ -19,7 +19,7 @@
 | 小米10S | thyme |  Android 11 | Android 11 | √ |
 | 小米10青春版 | vangogh | Android 10 | Android 11 | √ |
 | 小米9 | cepheus | Android 9 | Android 10 | √ |
-| 小米9 SE | grus | Android 9 | Android 10 | √ |
+| 小米9 SE | grus | Android 9 | Android 11 | √ |
 | 小米CC9 | pyxis | Android 9 | Android 10 | √ |
 | 小米8 | dipper | Android 9 | Android 10 | × |
 | 小米8屏幕指纹版 | equuleus | Android 9 | Android 10 | × |
