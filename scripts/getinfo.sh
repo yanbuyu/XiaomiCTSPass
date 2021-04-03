@@ -1,7 +1,7 @@
 #!/sbin/sh
 
 getpropPro(){
-    propValue=`grep "${1}=" $2 | cut -d'=' -f2 | sed 's# ##g'`
+    propValue=`grep "${1}=" $2 | cut -d'=' -f2 | sed 's# ##g;s#\n##g'`
  }
 
 blockList="system/system system_ext product system vendor"
