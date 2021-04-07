@@ -45,8 +45,8 @@
 | Redmi NOTE7 Pro | violet |  Android 9 | Android 10 | × |
 
 #### 自定义扩展
-- `./XiaoMiCTSPass/props/`下的文件名格式为`机型代号_sdk及版本号.prop`，以安卓11（SDK版本号为30）的小米10机型为例，扩展文件名应为`umi_sdk30.prop`。
-- 从小米设备的稳定版固件中提取`ro.build.fingerprint` `ro.build.description` `ro.build.version.security_patch`属性，具体参考`./XiaoMiCTSPass/props/`下的文件内容。
+- `./XiaomiCTSPass/props/`下的文件名格式为`机型代号_sdk及版本号.prop`，以安卓11（SDK版本号为30）的小米10机型为例，扩展文件名应为`umi_sdk30.prop`。
+- 从小米设备的稳定版固件中提取`ro.build.fingerprint` `ro.build.description` `ro.build.version.security_patch`属性，具体参考`./XiaomiCTSPass/props/`下的文件内容。
 - 可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写（此种可能有bug，自测）。
 
 #### 如何使用
@@ -54,7 +54,7 @@
 - 面具安装添加编译出来的模块
 
 #### 特别说明
-- 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动禁用MIUICTSPass模块；更新完开机后，重启一次，即可自动启用MIUICTSPass模块
+- 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动禁用XiaomiCTSPass模块；更新完开机后，重启一次，即可自动启用XiaomiCTSPass模块
 - 刷完后须手动开启magisk hide
 - 建议搭配Universal SafetyNet Fix模块使用
 - 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况
