@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/star/star:11/RKQ1.201112.002/V12.0.10.0.RKACNXM:user/release-keys
-ro.build.description=star-user 11 RKQ1.201112.002 V12.0.10.0.RKACNXM release-keys
-ro.build.version.security_patch=2021-03-01
+ro.build.fingerprint=Xiaomi/star/star:11/RKQ1.201112.002/V12.5.2.0.RKACNXM:user/release-keys
+ro.build.description=star-user 11 RKQ1.201112.002 V12.5.2.0.RKACNXM release-keys
+ro.build.version.security_patch=2021-04-01
