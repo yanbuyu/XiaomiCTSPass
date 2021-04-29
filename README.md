@@ -31,7 +31,8 @@
 | 小米5 | gmini | Android 6 | Android 8 | × |
 | 小米平板4 | clover | Android 8.1 | Android 8.1 | × |
 | Redmi K40 | alioth | Android 11 | Android 11 | √ |
-| Redmi K40 Pro | haydn | Android 11 | Android 11 | √ |
+| Redmi K40 Pro/Plus | haydn | Android 11 | Android 11 | √ |
+| Redmi K40 游戏增强版 | ares | Android 11 | Android 11 | √ |
 | Redmi K30 4G | phoenix | Android 10 | Android 11 | √ |
 | Redmi K30 5G | picasso | Android 10 | Android 11 | √ |
 | Redmi K30 Pro | lmi | Android 10 | Android 11 | √ |
