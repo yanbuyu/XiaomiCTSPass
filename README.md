@@ -50,7 +50,7 @@
 #### 自定义扩展
 - `./XiaomiCTSPass/props/`下的文件名格式为`机型代号_sdk及版本号.prop`，以安卓11（SDK版本号为30）的小米10机型为例，扩展文件名应为`umi_sdk30.prop`。
 - 从小米设备的稳定版固件中提取`ro.build.fingerprint` `ro.build.description` `ro.build.version.security_patch`属性，具体参考`./XiaomiCTSPass/props/`下的文件内容。
-- 可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写（此种可能有bug，自测）。
+- 可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写（此种方法可能有bug，自测）。
 
 #### 如何使用
 - 下载源码，然后直接make编译出模块（也可在Releases直接下载已经生成的模块）
