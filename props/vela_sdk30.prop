@@ -1,0 +1,3 @@
+ro.build.fingerprint=Meitu/vela/vela:11/RKQ1.200826.002/V12.5.1.0.RFECNXM:user/release-keys
+ro.build.description=vela-user 11 RKQ1.200826.002 V12.5.1.0.RFECNXM release-keys
+ro.build.version.security_patch=2021-03-01

@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/thyme/thyme:11/RKQ1.200826.002/V12.0.10.0.RGACNXM:user/release-keys
-ro.build.description=thyme-user 11 RKQ1.200826.002 V12.0.10.0.RGACNXM release-keys
-ro.build.version.security_patch=2021-03-01
+ro.build.fingerprint=Xiaomi/thyme/thyme:11/RKQ1.200826.002/V12.5.1.0.RGACNXM:user/release-keys
+ro.build.description=thyme-user 11 RKQ1.200826.002 V12.5.1.0.RGACNXM release-keys
+ro.build.version.security_patch=2021-04-01

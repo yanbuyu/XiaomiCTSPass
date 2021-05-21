@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/crux/crux:9/PKQ1.190714.001/V11.0.3.0.PFXCNXM:user/release-keys
+ro.build.description=crux-user 9 PKQ1.190714.001 V11.0.3.0.PFXCNXM release-keys
+ro.build.version.security_patch=2019-10-01

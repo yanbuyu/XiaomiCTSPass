@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/tucana/tucana:9/PKQ1.190302.001/V11.0.9.0.PFDCNXM:user/release-keys
+ro.build.description=tucana-user 9 PKQ1.190302.001 V11.0.9.0.PFDCNXM release-keys
+ro.build.version.security_patch=2020-03-01
