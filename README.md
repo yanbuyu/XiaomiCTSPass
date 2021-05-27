@@ -22,7 +22,7 @@
 | 小米10 Pro | cmi | Android 10 | Android 11 | √ |
 | 小米10S | thyme |  Android 11 | Android 11 | √ |
 | 小米10青春版 | vangogh | Android 10 | Android 11 | √ |
-| 小米9 | cepheus | Android 9 | Android 10 | √ |
+| 小米9 | cepheus | Android 9 | Android 11 | √ |
 | 小米9 Pro | crux | Android 9 | Android 10 | √ |
 | 小米9 SE | grus | Android 9 | Android 11 | √ |
 | 小米CC9 | pyxis | Android 9 | Android 11 | √ |
@@ -44,8 +44,9 @@
 | Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 10 | √ |
 | Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 10 | √ |
 | Redmi K20 | davinci | Android 9 | Android 10 | √ |
-| Redmi K20 Pro | raphael | Android 9 | Android 10 | √ |
+| Redmi K20 Pro | raphael | Android 9 | Android 11 | √ |
 | Redmi 10X 5G | bomb | Android 10 | Android 11 | √ |
+| Redmi NOTE10 | camellia | Android 11 | Android 11 | √ |
 | Redmi NOTE9 | cannon | Android 10 | Android 11 | √ |
 | Redmi NOTE9 Pro | gauguin | Android 10 | Android 11 | √ |
 | Redmi NOTE8 | ginkgo | Android 9 | Android 11 | √ |
