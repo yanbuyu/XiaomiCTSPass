@@ -28,7 +28,7 @@
 | 小米CC9 | pyxis | Android 9 | Android 11 | √ |
 | 小米CC9 美图定制版 | vela | Android 9 | Android 11 | √ |
 | 小米CC9 Pro | tucana | Android 9 | Android 11 | √ |
-| 小米CC9e | laurus | Android 9 | Android 10 | √ |
+| 小米CC9e | laurus | Android 9 | Android 10 | × |
 | 小米8 | dipper | Android 9 | Android 10 | × |
 | 小米8屏幕指纹版 | equuleus | Android 9 | Android 10 | × |
 | 小米8 SE | sirius | Android 8.1 | Android 10 | × |
@@ -41,9 +41,9 @@
 | Redmi K30 4G | phoenix | Android 10 | Android 11 | √ |
 | Redmi K30 5G | picasso | Android 10 | Android 11 | √ |
 | Redmi K30 Pro | lmi | Android 10 | Android 11 | √ |
-| Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 10 | √ |
-| Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 10 | √ |
-| Redmi K20 | davinci | Android 9 | Android 10 | √ |
+| Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 11 | √ |
+| Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 11 | √ |
+| Redmi K20 | davinci | Android 9 | Android 11 | √ |
 | Redmi K20 Pro | raphael | Android 9 | Android 11 | √ |
 | Redmi 10X 5G | bomb | Android 10 | Android 11 | √ |
 | Redmi NOTE10 | camellia | Android 11 | Android 11 | √ |
