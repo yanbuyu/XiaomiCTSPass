@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/atom/atom:10/QP1A.190711.020/V12.0.8.0.QJHCNXM:user/release-keys
+ro.build.description=atom-user 10 QP1A.190711.020 V12.0.8.0.QJHCNXM release-keys
+ro.build.version.security_patch=2021-01-01
