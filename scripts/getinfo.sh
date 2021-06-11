@@ -26,6 +26,7 @@ for blockName in ${blockList};do
             getpropPro "$d" "$buildFile"
             if [ "$propValue" ] && [ ! "$(echo "$propValue" | grep -E "qssi|arm64")" ];then
                 miuimodel=$propValue
+                [ "$miuidevice" == "star" ] || [ "$miuidevice" == "mars" ] && miuimodel="Mi11Pro&Ultra"
                 break
             fi
         fi
