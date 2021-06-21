@@ -1,6 +1,6 @@
 id=XiaomiCTSPass
 name=Xiaomi CTS Pass
-version=v1.2.1
-versionCode=121
+version=v1.2.2
+versionCode=122
 author=yanbuyu
 description=强制小米设备通过谷歌CTS测试，github开源地址：https://github.com/yanbuyu/XiaomiCTSPass
