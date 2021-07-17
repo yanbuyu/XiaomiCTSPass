@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/ursa/ursa:9/PKQ1.180729.001/V11.0.3.0.PEHCNXM:user/release-keys
+ro.build.description=ursa-user 9 PKQ1.180729.001 V11.0.3.0.PEHCNXM release-keys
+ro.build.version.security_patch=2020-10-01

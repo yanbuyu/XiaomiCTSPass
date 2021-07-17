@@ -12,7 +12,7 @@ create_props(){
     if [ -f $propfile ];then
         propsuffix=$(grep "ro.build.fingerprint=" $propfile | cut -d'=' -f2)
         rm -f $MODPATH/system.prop
-        builds="ro.bootimage.build.fingerprint ro.system.build.fingerprint ro.system_ext.build.fingerprint ro.vendor.build.fingerprint ro.product.build.fingerprint ro.odm.build.fingerprint"
+        builds="ro.build.fingerprint ro.build.version.base_os ro.bootimage.build.fingerprint ro.system.build.fingerprint ro.system_ext.build.fingerprint ro.vendor.build.fingerprint ro.product.build.fingerprint ro.odm.build.fingerprint"
         for str in $builds;do
             echo "${str}=${propsuffix}" >>$MODPATH/system.prop
         done

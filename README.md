@@ -31,6 +31,8 @@
 | 小米CC9e | laurus | Android 9 | Android 10 | × |
 | 小米8 | dipper | Android 9 | Android 10 | × |
 | 小米8屏幕指纹版 | equuleus | Android 9 | Android 10 | × |
+| 小米8透明探索版 | ursa | Android 9 | Android 10 | × |
+| 小米8青春版 | platina | Android 9 | Android 10 | × |
 | 小米8 SE | sirius | Android 8.1 | Android 10 | × |
 | 小米6 | sagit | Android 7.1 | Android 9 | × |
 | 小米5 | gmini | Android 6 | Android 8 | × |

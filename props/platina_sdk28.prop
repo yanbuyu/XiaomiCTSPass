@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/platina/platina:9/PKQ1.181007.001/V11.0.2.0.PDTCNXM:user/release-keys
+ro.build.description=platina-user 9 PKQ1.181007.001 V11.0.2.0.PDTCNXM release-keys
+ro.build.version.security_patch=2019-11-01
