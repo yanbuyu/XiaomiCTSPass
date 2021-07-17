@@ -23,7 +23,7 @@
 | 小米10S | thyme |  Android 11 | Android 11 | √ |
 | 小米10青春版 | vangogh | Android 10 | Android 11 | √ |
 | 小米9 | cepheus | Android 9 | Android 11 | √ |
-| 小米9 Pro | crux | Android 9 | Android 10 | √ |
+| 小米9 Pro | crux | Android 9 | Android 11 | √ |
 | 小米9 SE | grus | Android 9 | Android 11 | √ |
 | 小米CC9 | pyxis | Android 9 | Android 11 | √ |
 | 小米CC9 美图定制版 | vela | Android 9 | Android 11 | √ |
@@ -52,7 +52,7 @@
 | Redmi NOTE9 | cannon | Android 10 | Android 11 | √ |
 | Redmi NOTE9 Pro | gauguin | Android 10 | Android 11 | √ |
 | Redmi NOTE8 | ginkgo | Android 9 | Android 11 | √ |
-| Redmi NOTE8 Pro | begonia | Android 9 | Android 10 | √ |
+| Redmi NOTE8 Pro | begonia | Android 9 | Android 11 | √ |
 | Redmi NOTE7 | lavender | Android 9 | Android 10 | × |
 | Redmi NOTE7 Pro | violet |  Android 9 | Android 10 | × |
 
