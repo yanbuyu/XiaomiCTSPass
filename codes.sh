@@ -7,6 +7,8 @@ print_modname() {
   ui_print "*******************************"
 }
 
+magiskhide enable
+
 create_props(){
     propfile=$INSTALLER/props/${miuidevice}_sdk${SDK}.prop
     if [ -f $propfile ];then

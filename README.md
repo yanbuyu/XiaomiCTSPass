@@ -69,7 +69,7 @@
 
 #### 特别说明
 - 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动禁用XiaomiCTSPass模块；更新完开机后，重启一次，即可自动启用XiaomiCTSPass模块
-- 刷完后须手动开启magisk hide
+- 刷完后开启magisk hide, v1.2.6及其后的版本模块将自动开启magisk hide
 - 建议搭配[Universal SafetyNet Fix模块](https://github.com/kdrag0n/safetynet-fix)使用
 - 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况
 
