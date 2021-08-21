@@ -1,3 +1,3 @@
 ro.build.fingerprint=Redmi/cannon/cannon:11/RP1A.200720.011/V12.5.6.0.RJECNXM:user/release-keys
 ro.build.description=cannon-user 11 RP1A.200720.011 V12.5.6.0.RJECNXM release-keys
-ro.build.version.security_patch=2021-06-01
+ro.build.version.security_patch=2021-07-01
