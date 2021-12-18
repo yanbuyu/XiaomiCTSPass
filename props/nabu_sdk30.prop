@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/nabu/nabu:11/RKQ1.200826.002/V12.5.7.0.RKXCNXM:user/release-keys
-ro.build.description=nabu-user 11 RKQ1.200826.002 V12.5.7.0.RKXCNXM release-keys
-ro.build.version.security_patch=2021-06-01
+ro.build.fingerprint=Xiaomi/nabu/nabu:11/RKQ1.200826.002/V12.5.13.0.RKXCNXM:user/release-keys
+ro.build.description=nabu-user 11 RKQ1.200826.002 V12.5.13.0.RKXCNXM release-keys
+ro.build.version.security_patch=2021-10-01
