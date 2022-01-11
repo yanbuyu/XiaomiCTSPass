@@ -1,56 +1,60 @@
 #!/sbin/sh
 
-getpropPro(){
-    propValue=`grep "${1}=" $2 | cut -d'=' -f2 | sed 's# ##g' | tr -d '\n\r'`
- }
+#某些rec可能getprop会报错，干脆重写了一个获取ROM信息的函数
+getName(){
+    unset getValue
+    [ -f $2 ] && getValue=`grep "${1}=" $2 | cut -d'=' -f2 | sed 's# ##g' | tr -d '\n\r'`
+}
 
-blockList="system/system system_ext product system vendor"
-for blockName in ${blockList};do
-    buildFile=/$blockName/build.prop
-    ##获取设备代号
-    blockName=$(echo "$blockName" | sed "s#/system##g")
-    deviceList="ro.product.${blockName}.device ro.product.device"
-    for d in ${deviceList};do
-        if [ -f $buildFile ];then
-            getpropPro "$d" "$buildFile"
-            if [ "$propValue" ] && [ "$propValue" != "qssi" ];then
-                miuidevice=$propValue
-                break
-            fi
-        fi
-    done
-    ##获取机型号
-    modelList="ro.product.${blockName}.marketname ro.product.marketname ro.product.${blockName}.model ro.product.model"
-    for d in ${modelList};do
-        if [ -f $buildFile ];then
-            getpropPro "$d" "$buildFile"
-            if [ "$propValue" ] && [ ! "$(echo "$propValue" | grep -E "qssi|arm64")" ];then
-                miuimodel=$propValue
-                [ "$miuidevice" == "star" ] || [ "$miuidevice" == "mars" ] && miuimodel="Mi11Pro&Ultra"
-                break
-            fi
-        fi
-    done
-    ##获取SDK
-    SDKList="ro.${blockName}.build.version.sdk ro.build.version.sdk"
-    for d in ${SDKList};do
-        if [ -f $buildFile ];then
-            getpropPro "$d" "$buildFile"
-            if [ "$propValue" ];then
-                SDK=$propValue
-                break
-            fi
-        fi
-    done
-    ##获取miui版本号
-    versionList="ro.${blockName}.build.version.incremental ro.build.version.incremental"
-    for d in ${versionList};do
-        if [ -f $buildFile ];then
-            getpropPro "$d" "$buildFile"
-            if [ "$propValue" ];then
-                miuiversion=$propValue
-                break
-            fi
-        fi
-    done
+##
+systemBuildProp=/system/system/build.prop
+[ ! -f $systemBuildProp ] && systemBuildProp=/system/build.prop
+vendorBuildProp=/vendor/build.prop
+
+##获取MIUI版本号
+getName "ro.build.version.incremental" $systemBuildProp
+VERSION="$getValue"
+if [ ! "$VERSION" ];then
+    getName "ro.system.build.version.incremental" $systemBuildProp
+    VERSION="$getValue"
+fi
+##获取SDK版本
+getName "ro.build.version.sdk" $systemBuildProp
+SDK="$getValue"
+if [ ! "$SDK" ];then
+    getName "ro.system.build.version.sdk" $systemBuildProp
+    SDK="$getValue"
+fi
+##获取安卓版本
+getName "ro.build.version.release" $systemBuildProp
+ANDROID="$getValue"
+if [ ! "$ANDROID" ];then
+    getName "ro.system.build.version.release" $systemBuildProp
+    ANDROID="$getValue"
+fi
+##获取设备代号
+getName "ro.product.device" $systemBuildProp
+DEVICE="$getValue"
+if [ ! "$DEVICE" ];then
+    getName "ro.product.vendor.device" $vendorBuildProp
+    DEVICE="$getValue"
+fi
+
+##获取老设备型号
+getName "ro.product.model" $systemBuildProp
+MODEL="$getValue"
+##获取build_xxx.prop路径
+vendorBuildProps=$(ls /vendor/*.prop 2>/dev/null)
+for buildProp in $vendorBuildProps;do
+    getName "ro.product.vendor.device" $buildProp
+    if [ "$getValue" ] && [ "$getValue" == "$DEVICE" ] && [ ! "$MODEL" ];then
+        getName "ro.product.vendor.marketname" $buildProp
+        MODEL="$getValue"
+        [[ "$MODEL" ]] && break
+    fi
 done
+##获取默认型号
+if [ ! "$MODEL" ];then
+    getName "ro.product.vendor.model" $vendorBuildProp
+    MODEL="$getValue"
+fi

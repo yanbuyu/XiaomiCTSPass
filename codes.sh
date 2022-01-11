@@ -7,10 +7,10 @@ print_modname() {
   ui_print "*******************************"
 }
 
-magiskhide enable
+#magiskhide enable
 
 create_props(){
-    propfile=$INSTALLER/props/${miuidevice}_sdk${SDK}.prop
+    propfile=$INSTALLER/props/${DEVICE}_sdk${SDK}.prop
     if [ -f $propfile ];then
         propsuffix=$(grep "ro.build.fingerprint=" $propfile | cut -d'=' -f2)
         rm -f $MODPATH/system.prop
@@ -25,10 +25,17 @@ create_props(){
         cp -af $INSTALLER/module.prop $MODPATH/module.prop
         cp -af $INSTALLER/post-fs-data.sh $MODPATH/post-fs-data.sh
         ##
-        ui_print "- 当前机型代号：$miuidevice"
+        ui_print "- 当前设备代号：$DEVICE"
+        ui_print "- 当前设备型号：$MODEL"
         ui_print "- 当前安卓SDK版本：$SDK"
+        ui_print "- 当前安卓版本：$ANDROID"
         ui_print "- github地址：https://github.com/yanbuyu/XiaomiCTSPass"
     else
-        abort "! 暂未收录该机型或该版本"
+        ui_print "- 当前设备代号：$DEVICE"
+        ui_print "- 当前设备型号：$MODEL"
+        ui_print "- 当前安卓SDK版本：$SDK"
+        ui_print "- 当前安卓版本：$ANDROID"
+        ui_print "- github地址：https://github.com/yanbuyu/XiaomiCTSPass"
+        abort "! 暂未收录该机型或该版本，您可按照开源地址上的说明自行适配"
     fi
 }
