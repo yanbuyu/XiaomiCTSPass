@@ -1,4 +1,3 @@
 ro.build.fingerprint=Xiaomi/venus/venus:12/SKQ1.211006.001/V13.0.6.0.SKBCNXM:user/release-keys
 ro.build.description=venus-user 12 SKQ1.211006.001/V13.0.6.0.SKBCNXM release-keys
 ro.build.version.security_patch=2021-12-01
-
