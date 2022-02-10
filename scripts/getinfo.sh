@@ -58,3 +58,12 @@ if [ ! "$MODEL" ];then
     getName "ro.product.vendor.model" $vendorBuildProp
     MODEL="$getValue"
 fi
+##判断是否为小米或红米
+getName "ro.build.fingerprint=" $systemBuildProp
+fingerprint="$getValue"
+if [[ ! "$fingerprint" ]];then
+    getName "ro.vendor.build.fingerprint" $vendorBuildProp
+    #ui_print "$getValue"
+    fingerprint="$getValue"
+    [[ -n "$fingerprint" ]] && FIRM=$(echo "$fingerprint" | cut -d'/' -f1 | tr "[A-Z]" "[a-z]")
+fi
