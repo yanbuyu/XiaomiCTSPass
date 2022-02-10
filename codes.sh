@@ -5,7 +5,7 @@ print_modname() {
   ui_print "          Author：yanbuyu    "
   ui_print "          Thanks：sekaiacg    "
   ui_print "*******************************"
-  log=$(cat $INSTALLER/release/changelog.md)
+  log=$(cat $INSTALLER/release/changelog.md | tr -s "\n" "\n")
   ui_print "$log"
   ui_print " "
 }
