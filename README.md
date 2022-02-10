@@ -40,7 +40,7 @@
 | 小米10 | umi | Android 10 | Android 11 | √ |
 | 小米10至尊纪念版 | cas | Android 10 | Android 11 | √ |
 | 小米10 Pro | cmi | Android 10 | Android 11 | √ |
-| 小米10S | thyme |  Android 11 | Android 11 | √ |
+| 小米10S | thyme |  Android 11 | Android 12 | √ |
 | 小米10青春版 | vangogh | Android 10 | Android 11 | √ |
 | 小米9 | cepheus | Android 9 | Android 11 | × |
 | 小米9 Pro | crux | Android 9 | Android 11 | × |
