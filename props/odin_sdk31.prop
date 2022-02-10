@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/odin/odin:12/RKQ1.211001.001/V13.0.4.0.SKMCNXM:user/release-keys
+ro.build.description=odin-user 12 RKQ1.211001.001 V13.0.4.0.SKMCNXM release-keys
+ro.build.version.security_patch=2021-12-01
