@@ -7,17 +7,18 @@
 #### 自定义扩展
 - `./XiaomiCTSPass/props/`下的文件名格式为`机型代号_sdk及版本号.prop`，以安卓11（SDK版本号为30）的小米10机型为例，扩展文件名应为`umi_sdk30.prop`。
 - 从小米设备的稳定版固件中提取`ro.build.fingerprint` `ro.build.description` `ro.build.version.security_patch`属性，具体参考`./XiaomiCTSPass/props/`下的文件内容。
-- 可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写（此种方法可能有bug，自测）。
+- 兼容模式：可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写，若遇到bug，请自行卸载模块。
 
 #### 如何使用
-- 下载源码，然后安装clang环境，直接make编译出模块；也可在Releases直接下载已经生成的模块；又或者切换至项目根目录下，将所有文件打包成zip压缩包
-- 面具安装添加编译出来的模块
+- 下载源码，然后安装clang环境，直接make编译出模块；也可在Releases直接下载已经生成的模块；又或者切换至项目根目录下，将所有文件打包成zip压缩包。
+- 在面具应用中安装添加编译出来的模块。
+- 支持在面具中直接更新。
 
 #### 特别说明
-- 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动禁用XiaomiCTSPass模块；更新完开机后，重启一次，即可自动启用XiaomiCTSPass模块
-- 刷完后必须开启magisk hide
-- 若系统是2021年8月份后的MIUI版本，XiaomiCTSPass模块必须搭配[Universal SafetyNet Fix模块](https://github.com/kdrag0n/safetynet-fix)使用
-- 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况
+- 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动禁用XiaomiCTSPass模块；更新完开机后，重启一次，即可自动启用XiaomiCTSPass模块。
+- 若Magisk为zygisk版，刷完后必须开启magisk hide。
+- 若系统是2021年8月份后的MIUI版本或Magisk为zygisk版，XiaomiCTSPass模块必须搭配[Universal SafetyNet Fix模块](https://github.com/kdrag0n/safetynet-fix)使用。
+- 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况。
 
 #### 支持机型
 - 后续会支持更多机型
@@ -25,10 +26,13 @@
 | 机型 | 内部代号 | 最低安卓版本 | 最高安卓版本 | 官方维护状态 |
 | :----: | :----: | :----: | :----: | :----: |
 | 小米 MIX Fold | cetus | Android 11 | Android 11 | √ |
-| 小米 MIX4 | odin | Android 11 | Android 11 | √ |
+| 小米 MIX4 | odin | Android 11 | Android 12 | √ |
 | 小米 MIX3 | perseus | Android 9 | Android 10 | × |
 | 小米 MIX2 | chiron | Android 7.1 | Android 9 | × |
 | 小米 MIX2S | polaris | Android 9 | Android 10 | × |
+| 小米12 Pro | zeus | Android 12 | Android 12 | √ |
+| 小米12 | cupid | Android 12 | Android 12 | √ |
+| 小米12X | psyche | Android 11 | Android 11 | √ |
 | 小米11 | venus | Android 11 | Android 11 | √ |
 | 小米11 Ultra | star | Android 11 | Android 11 | √ |
 | 小米11 Pro | mars | Android 11 | Android 11 | √ |
