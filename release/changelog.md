@@ -1,8 +1,6 @@
 
 ## v1.4.3更新日志
 
-1.更新模块脚本bug
+1.更新模块脚本
 
-2.重构模块，移除XiaomiCTSPass检测模块
-
-3.支持模块自我检测系统系统更新
+2.移除XiaomiCTSPass检测模块，XiaomiCTAPass模块已支持检测系统是否存在更新
