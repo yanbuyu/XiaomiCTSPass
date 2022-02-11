@@ -59,7 +59,7 @@ mount -o ro -t auto /system_ext 2>/dev/null;
 
 #释放文件
 mkdir -p $TMPDIR
-unzip -o "$ZIPFILE" module.prop module_pro.prop post-fs-data.sh "props/*" "release/*" customize.sh 'scripts/*' -d $TMPDIR >&2
+unzip -o "$ZIPFILE" module.prop module_pro.prop post-fs-data.sh "props/*" "release/*" customize.sh "uninstall.sh" 'scripts/*' -d $TMPDIR >&2
 
 log=$(cat $TMPDIR/release/changelog.md | tr -s "\n" "\n")
 ui_print "$log"
@@ -69,6 +69,9 @@ ui_print " "
 [ ! -f $TMPDIR/scripts/getinfo.sh ] && abort "! Unable to extract getinfo.sh!"
 . $TMPDIR/scripts/getinfo.sh
 
+##移除旧版检测模块
+rm -rf $NVBASE/modules/checkCTSModule
+
 ##
 create_props
 
@@ -77,7 +80,8 @@ cp -af $TMPDIR/module.prop $MODPATH/module.prop
 cp -af $TMPDIR/module_pro.prop $MODPATH/module_pro.prop
 cp -af $TMPDIR/system.prop $MODPATH/system.prop
 cp -af $TMPDIR/post-fs-data.sh $MODPATH/post-fs-data.sh
-cp -af $TMPDIR/scripts/init.d $MODPATH/init.d
+cp -af $TMPDIR/uninstall.sh $MODPATH/uninstall.sh
+sed -i "s/REPLACE_SDK/$SDK/g" $MODPATH/post-fs-data.sh
 
 ##取消挂载
 umount product 2>/dev/null;

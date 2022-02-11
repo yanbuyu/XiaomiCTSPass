@@ -1,6 +1,0 @@
-id=checkCTSModule
-name=Xiaomi CTS Pass检测模块
-version=v1.0.0
-versionCode=100
-author=yanbuyu
-description=Xiaomi CTS Pass附加模块，检测到系统有更新，自动禁用XiaomiCTSPass模块；检测到系统无更新，自动启用XiaomiCTSPass模块（请勿删除此模块，以免影响XiaomiCTSPass模块）；github开源地址：https://github.com/yanbuyu/XiaomiCTSPass
