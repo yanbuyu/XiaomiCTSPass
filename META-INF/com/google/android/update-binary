@@ -1,124 +1,33 @@
 #!/sbin/sh
-##########################################################################################
-#
-# Magisk Module Template Install Script
-# by topjohnwu
-#
-##########################################################################################
+
+#################
+# Initialization
+#################
 
 umask 022
-
-# Global vars
-INSTALLER=/dev/tmp
-PERSISTDIR=/sbin/.magisk/mirror/persist
-
-rm -rf $INSTALLER 2>/dev/null
-mkdir -p $INSTALLER
 
 # echo before loading util_functions
 ui_print() { echo "$1"; }
 
 require_new_magisk() {
   ui_print "*******************************"
-  ui_print " Please install Magisk v19.0+! "
+  ui_print " Please install Magisk v20.4+! "
   ui_print "*******************************"
   exit 1
 }
 
-##############
-# Environment
-##############
+#########################
+# Load util_functions.sh
+#########################
 
 OUTFD=$2
-ZIP=$3
+ZIPFILE=$3
 
 mount /data 2>/dev/null
 
-# Load utility functions
 [ -f /data/adb/magisk/util_functions.sh ] || require_new_magisk
 . /data/adb/magisk/util_functions.sh
-[ $MAGISK_VER_CODE -gt 18100 ] || require_new_magisk
+[ $MAGISK_VER_CODE -lt 20400 ] && require_new_magisk
 
-# Preperation for flashable zips
-setup_flashable
-
-# Mount partitions
-mount_partitions
-
-#额外挂载
-if [ -d /dev/block/mapper ]; then
-    mount -o ro -t auto /dev/block/mapper/product /product 2>/dev/null;
-    mount -o ro -t auto /dev/block/mapper/system_ext /system_ext 2>/dev/null;
-else
-    mount -o ro -t auto /dev/block/bootdevice/by-name/product /product 2>/dev/null;
-    mount -o ro -t auto /dev/block/bootdevice/by-name/system_ext /system_ext 2>/dev/null;
-fi;
-mount -o ro -t auto /product 2>/dev/null;
-mount -o ro -t auto /system_ext 2>/dev/null;
-
-# Detect version and architecture
-api_level_arch_detect
-
-# Setup busybox and binaries
-$BOOTMODE && boot_actions || recovery_actions
-
-##############
-# Preparation
-##############
-
-$BOOTMODE && MODDIRNAME=modules_update || MODDIRNAME=modules
-MODULEROOT=$NVBASE/$MODDIRNAME
-MODID="XiaomiCTSPass"
-MODPATH=$MODULEROOT/$MODID
-#MODNAME=`grep_prop name $INSTALLER/module.prop`
-
-# Create mod paths
-rm -rf $MODPATH 2>/dev/null
-mkdir -p $MODPATH
-
-#释放文件
-unzip -o "$ZIP" module.prop module_pro.prop post-fs-data.sh "props/*" "release/*" codes.sh 'scripts/*' -d $INSTALLER >&2
-
-#加载核心
-[ ! -f $INSTALLER/scripts/getinfo.sh ] && abort "! Unable to extract zip file!"
-. $INSTALLER/scripts/getinfo.sh
-
-#判断关键脚本
-[ ! -f $INSTALLER/codes.sh ] && abort "! Unable to extract zip file!"
-. $INSTALLER/codes.sh
-print_modname
-
-##
-create_props
-
-# Custom uninstaller
-[ -f $INSTALLER/uninstall.sh ] && cp -af $INSTALLER/uninstall.sh $MODPATH/uninstall.sh
-
-# post-fs-data scripts
-$POSTFSDATA && cp -af $INSTALLER/post-fs-data.sh $MODPATH/post-fs-data.sh
-
-# service scripts
-$LATESTARTSERVICE && cp -af $INSTALLER/service.sh $MODPATH/service.sh
-
-# Handle replace folders
-for TARGET in $REPLACE; do
-  ui_print "- Replace target: $TARGET"
-  mktouch $MODPATH$TARGET/.replace
-done
-
-if $BOOTMODE; then
-  # Update info for Magisk Manager
-  mktouch $NVBASE/modules/$MODID/update
-  cp -af $MODPATH/module.prop $NVBASE/modules/$MODID/module.prop
-fi
-
-##############
-# Finalizing
-##############
-
-cd /
-$BOOTMODE || recovery_cleanup
-rm -rf $INSTALLER
-
-ui_print "- 刷入成功"
+install_module
 exit 0
