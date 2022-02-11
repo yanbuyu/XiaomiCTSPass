@@ -1,6 +1,44 @@
 
-## v1.4.3更新日志
+## v1.4.4更新日志
 
-1.更新模块脚本
+1.移除XiaomiCTSPass检测模块残留日志文件
 
-2.移除XiaomiCTSPass检测模块，XiaomiCTAPass模块已支持检测系统是否存在更新
+2.更新以下机型的属性配置:
+
+- 小米10青春版  Android 11
+
+- 小米10S  Android 11
+
+- 小米11 Pro  Android 11
+
+- 小米11 Ultra  Android 11
+
+- 小米11 青春版  Android 11
+
+- Redmi K40  Android 11
+
+- Redmi K40 Pro  Android 11
+
+- Redmi K30 Ultra  Android 11
+
+- Redmi NOTE9  Android 11
+
+- Redmi NOTE10  Android 11
+
+- Redmi NOTE11 4G  Android 11
+
+- Redmi NOTE11 Pro  Android 11
+
+- Redmi 10X 5G  Android 11
+
+- Redmi 10X Pro 5G  Android 11
+
+- 小米Civi  Android 11
+
+- 小米平板5 Pro  Android 11
+
+- 小米平板5 Pro WiFi  Android 11
+
+- 小米平板5  Android 11
+
+- Redmi K40 游戏增强版  Android 11
