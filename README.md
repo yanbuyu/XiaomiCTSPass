@@ -7,7 +7,7 @@
 #### 自定义扩展
 - `./XiaomiCTSPass/props/`下的文件名格式为`机型代号_sdk及版本号.prop`，以安卓11（SDK版本号为30）的小米10机型为例，扩展文件名应为`umi_sdk30.prop`。
 - 从小米设备的稳定版固件中提取`ro.build.fingerprint` `ro.build.description` `ro.build.version.security_patch`属性，具体参考`./XiaomiCTSPass/props/`下的文件内容。
-- 兼容模式：可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写，若遇到bug，请自行卸载模块。
+- 兼容模式：可提取其他机型的属性强行适配某机型，但文件名格式必须严格按照某机型信息填写，若遇到BUG，请自行卸载模块。
 
 #### 如何使用
 - 下载源码，然后安装clang环境，直接make编译出模块；也可在Releases直接下载已经生成的模块；又或者切换至项目根目录下，将所有文件打包成zip压缩包。
@@ -15,7 +15,7 @@
 - 支持在面具中直接更新。
 
 #### 特别说明
-- 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动移除XiaomiCTSPass模块中的systen.prop；更新完开机后，重启一次，即可自动激活XiaomiCTSPass模块。
+- 跨版本升级时，设备系统会自动比对fingerprint（指纹）属性，从而确定是否正常更新内容，此时如果依然挂载XiaomiCTSPass模块，那么系统更新前后fingerprint（指纹）将完全一致，进而可能导致刷机包中部分更新内容无法更新进设备系统。基于以上理由，每次系统升级后，XiaomiCTSPass模块会自动移除systen.prop；更新完开机后，重启一次，即可自动激活XiaomiCTSPass模块，恢复systen.prop。注意！这不是XiaomiCTSPas模块的BUG，而是为了保证系统正常稳定升级而有意为之的特性。
 - 若Magisk为非zygisk版，刷完后必须开启magisk hide。
 - 若系统是2021年8月份后的MIUI版本或Magisk为zygisk版，XiaomiCTSPass模块必须搭配[Universal SafetyNet Fix模块](https://github.com/kdrag0n/safetynet-fix)使用。
 - 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况。
