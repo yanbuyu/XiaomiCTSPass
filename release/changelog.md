@@ -1,30 +1,16 @@
 
-## v1.4.1更新日志
+## v1.4.2更新日志
 
-1.更新模块脚本
+1.修复模块脚本bug
 
-2.修复获取安卓12错误属性的bug
+2.修复Redmi兼容模式bug
 
-3.为Android11与Android12小米设备增加兼容模式
+3.更新以下机型的属性内容：
 
-4.重构模块逻辑，支持在线更新
+- Xiaomi10 -> Android11
 
-5.更新以下机型的属性内容：
+- Xiaomi10 Pro -> Android11
 
-- Redmi K40
+- Xiaomi10 Ultra -> Android11
 
-- Redmi K40Pro
-
-- 小米12Pro
-
-- 小米12
-
-- 小米MIX4
-
-- 小米11
-
-- 小米11 Ultra
-
-- 小米11 Pro
-
-
+- Redmi 30S Ultra -> Android11
