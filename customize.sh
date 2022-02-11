@@ -69,8 +69,9 @@ ui_print " "
 [ ! -f $TMPDIR/scripts/getinfo.sh ] && abort "! Unable to extract getinfo.sh!"
 . $TMPDIR/scripts/getinfo.sh
 
-##移除旧版检测模块
+##移除检测模块
 rm -rf $NVBASE/modules/checkCTSModule
+rm -f /data/system/fingerprint_record.logs
 
 ##
 create_props
