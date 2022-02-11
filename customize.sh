@@ -44,7 +44,7 @@ create_props(){
 }
 
 # Mount partitions
-mount_partitions
+#mount_partitions
 
 #额外挂载
 if [ -d /dev/block/mapper ]; then
@@ -61,8 +61,8 @@ mount -o ro -t auto /system_ext 2>/dev/null;
 mkdir -p $TMPDIR
 unzip -o "$ZIPFILE" module.prop module_pro.prop post-fs-data.sh "props/*" "release/*" customize.sh "uninstall.sh" 'scripts/*' -d $TMPDIR >&2
 
-log=$(cat $TMPDIR/release/changelog.md | tr -s "\n" "\n")
-ui_print "$log"
+#log=$(cat $TMPDIR/release/changelog.md | tr -s "\n" "\n")
+#ui_print "$log"
 ui_print " "
 
 #加载核心
@@ -85,7 +85,7 @@ cp -af $TMPDIR/uninstall.sh $MODPATH/uninstall.sh
 sed -i "s/REPLACE_SDK/$SDK/g" $MODPATH/post-fs-data.sh
 
 ##取消挂载
-$BOOTMODE || recovery_cleanup
+#$BOOTMODE || recovery_cleanup
 umount product 2>/dev/null;
 umount system_ext 2>/dev/null;
 [[ -f $TMPDIR ]] && rm -rf $TMPDIR
