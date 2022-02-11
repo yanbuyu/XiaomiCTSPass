@@ -16,7 +16,7 @@
 
 #### 特别说明
 - 系统跨版本升级时会自动比对fingerprint（指纹）属性，所以每次系统升级后会自动禁用XiaomiCTSPass模块；更新完开机后，重启一次，即可自动启用XiaomiCTSPass模块。
-- 若Magisk为zygisk版，刷完后必须开启magisk hide。
+- 若Magisk为非zygisk版，刷完后必须开启magisk hide。
 - 若系统是2021年8月份后的MIUI版本或Magisk为zygisk版，XiaomiCTSPass模块必须搭配[Universal SafetyNet Fix模块](https://github.com/kdrag0n/safetynet-fix)使用。
 - 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况。
 

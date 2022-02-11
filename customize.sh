@@ -20,11 +20,6 @@ main(){
         echo "${str}=${propsuffix}" >>$TMPDIR/system.prop
     done
     cat $propfile >>$TMPDIR/system.prop
-    ##检测模块与模块信息
-    cp -af $TMPDIR/scripts/init.d $TMPDIR/init.d
-    cp -af $TMPDIR/module_pro.prop $TMPDIR/module_pro.prop
-    cp -af $TMPDIR/module.prop $TMPDIR/module.prop
-    cp -af $TMPDIR/post-fs-data.sh $TMPDIR/post-fs-data.sh
 }
 
 create_props(){
