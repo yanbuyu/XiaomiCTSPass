@@ -71,7 +71,7 @@ ui_print " "
 
 ##移除检测模块
 rm -rf $NVBASE/modules/checkCTSModule
-rm -f /data/system/fingerprint_record.logs
+rm -f /data/system/fingerprint_record.log
 
 ##
 create_props
