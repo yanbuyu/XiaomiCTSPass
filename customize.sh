@@ -85,5 +85,7 @@ cp -af $TMPDIR/uninstall.sh $MODPATH/uninstall.sh
 sed -i "s/REPLACE_SDK/$SDK/g" $MODPATH/post-fs-data.sh
 
 ##取消挂载
+$BOOTMODE || recovery_cleanup
 umount product 2>/dev/null;
 umount system_ext 2>/dev/null;
+[[ -f $TMPDIR ]] && rm -rf $TMPDIR
