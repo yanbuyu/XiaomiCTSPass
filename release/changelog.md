@@ -1,4 +1,33 @@
 
+## v1.4.7更新日志
+
+1.更新以下机型的属性配置:
+
+- 小米9 Pro  Android 11
+
+- 小米9  Android 11
+
+- 小米9 SE  Android 11
+
+- 小米CC9 Pro  Android 11
+
+- 小米CC9E  Android 11
+
+- Redmi K20 Pro  Android 11
+
+- Redmi K20  Android 11
+
+- Redmi NOTE11 5G  Android 11
+
+- Redmi NOTE8 Pro  Android 11
+
+- Redmi NOTE8  Android 11
+
+- Redmi NOTE7 Pro  Android 11
+
+- Redmi NOTE7  Android 11
+
+
 ## v1.4.6更新日志
 
 1.修复部分安卓12设备无法通过CTS检测的bug
