@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/davinci/davinci:11/RKQ1.200826.002/V12.1.2.0.RFJCNXM:user/release-keys
-ro.build.description=davinci-user 11 RKQ1.200826.002 V12.1.2.0.RFJCNXM release-keys
-ro.build.version.security_patch=2021-02-01
+ro.build.fingerprint=Xiaomi/davinci/davinci:11/RKQ1.200826.002/V12.5.2.0.RFJCNXM:user/release-keys
+ro.build.description=davinci-user 11 RKQ1.200826.002 V12.5.2.0.RFJCNXM release-keys
+ro.build.version.security_patch=2021-10-01

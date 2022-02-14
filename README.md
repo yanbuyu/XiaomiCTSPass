@@ -76,7 +76,7 @@
 | Redmi NOTE11 Pro | pissarro | Android 11 | Android 11 | √ |
 | Redmi NOTE11 5G | evergo | Android 11 | Android 11 | √ |
 | Redmi NOTE11 4G | selene | Android 11 | Android 11 | √ |
-| Redmi NOTE10 Pro | chopin | Android 11 | Android 11 | √ |
+| Redmi NOTE10 Pro | chopin | Android 11 | Android 12 | √ |
 | Redmi NOTE10 | camellia | Android 11 | Android 11 | √ |
 | Redmi NOTE9 | cannon | Android 10 | Android 11 | √ |
 | Redmi NOTE9 Pro | gauguin | Android 10 | Android 11 | √ |
