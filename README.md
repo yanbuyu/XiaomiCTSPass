@@ -61,6 +61,7 @@
 | 小米平板5 Pro | enuma | Android 11 | Android 11 | √ |
 | 小米平板5 | nabu | Android 11 | Android 11 | √ |
 | 小米平板4 | clover | Android 8.1 | Android 8.1 | × |
+| Redmi K50 电竞版 | ingres | Android 12 | Android 12 | √ |
 | Redmi K40 | alioth | Android 11 | Android 12 | √ |
 | Redmi K40 Pro/Plus | haydn | Android 11 | Android 12 | √ |
 | Redmi K40 游戏增强版 | ares | Android 11 | Android 11 | √ |
