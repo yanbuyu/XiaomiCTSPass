@@ -67,7 +67,7 @@
 | Redmi K40 游戏增强版 | ares | Android 11 | Android 11 | √ |
 | Redmi K30 4G | phoenix | Android 10 | Android 11 | √ |
 | Redmi K30 5G | picasso | Android 10 | Android 11 | √ |
-| Redmi K30 Pro | lmi | Android 10 | Android 11 | √ |
+| Redmi K30 Pro | lmi | Android 10 | Android 12 | √ |
 | Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 11 | √ |
 | Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 11 | √ |
 | Redmi K20 | davinci | Android 9 | Android 11 | × |
