@@ -7,7 +7,7 @@
 
 - 小米10S  Android 12
 
-- 小米10 Pro  Android 12
+- Redmi K30 Pro  Android 12
 
 2.其他骁龙865/870机型在Android 12目前只能使用兼容模式
 
