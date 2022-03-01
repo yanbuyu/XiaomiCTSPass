@@ -1,5 +1,5 @@
 
-## v1.4.8-v1.4.9更新日志
+## v1.4.8-v1.5.0更新日志
 
 1.更新以下机型的属性配置:
 
@@ -7,7 +7,11 @@
 
 - 小米10S  Android 12
 
+- 小米10 Pro  Android 12
+
 - Redmi K30 Pro  Android 12
+
+- Redmi K30S 至尊纪念版  Android 12
 
 2.其他骁龙865/870机型在Android 12目前只能使用兼容模式
 
