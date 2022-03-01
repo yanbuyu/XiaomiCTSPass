@@ -39,7 +39,7 @@
 | 小米11 青春版 | renoir | Android 11 | Android 11 | √ |
 | 小米10 | umi | Android 10 | Android 12 | √ |
 | 小米10至尊纪念版 | cas | Android 10 | Android 11 | √ |
-| 小米10 Pro | cmi | Android 10 | Android 11 | √ |
+| 小米10 Pro | cmi | Android 10 | Android 12 | √ |
 | 小米10S | thyme |  Android 11 | Android 12 | √ |
 | 小米10青春版 | vangogh | Android 10 | Android 11 | √ |
 | 小米9 | cepheus | Android 9 | Android 11 | × |
@@ -69,7 +69,7 @@
 | Redmi K30 5G | picasso | Android 10 | Android 11 | √ |
 | Redmi K30 Pro | lmi | Android 10 | Android 12 | √ |
 | Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 11 | √ |
-| Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 11 | √ |
+| Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 12 | √ |
 | Redmi K20 | davinci | Android 9 | Android 11 | × |
 | Redmi K20 Pro | raphael | Android 9 | Android 11 | × |
 | Redmi 10X 5G | atom | Android 10 | Android 11 | √ |
