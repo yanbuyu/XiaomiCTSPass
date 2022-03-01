@@ -36,7 +36,7 @@
 | 小米11 | venus | Android 11 | Android 12 | √ |
 | 小米11 Ultra | star | Android 11 | Android 12 | √ |
 | 小米11 Pro | mars | Android 11 | Android 12 | √ |
-| 小米11 青春版 | renoir | Android 11 | Android 11 | √ |
+| 小米11 青春版 | renoir | Android 11 | Android 12 | √ |
 | 小米10 | umi | Android 10 | Android 12 | √ |
 | 小米10至尊纪念版 | cas | Android 10 | Android 11 | √ |
 | 小米10 Pro | cmi | Android 10 | Android 12 | √ |

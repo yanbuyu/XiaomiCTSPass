@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/renoir/renoir:12/SKQ1.211006.001/V13.0.7.0.SKICNXM:user/release-keys
+ro.build.description=renoir-user 12 SKQ1.211006.001 V13.0.7.0.SKICNXM release-keys
+ro.build.version.security_patch=2021-12-01
