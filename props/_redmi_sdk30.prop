@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/apollo/apollo:11/RKQ1.200826.002/V12.5.1.0.RJDCNXM:user/release-keys
+ro.build.description=apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDCNXM release-keys
+ro.build.version.security_patch=2021-04-01

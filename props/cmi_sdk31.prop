@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/cmi/cmi:12/SKQ1.211006.001/V13.0.2.0.SJACNXM:user/release-keys
+ro.build.description=cmi-user 12 SKQ1.211006.001 V13.0.2.0.SJACNXM release-keys
+ro.build.version.security_patch=2022-01-01
