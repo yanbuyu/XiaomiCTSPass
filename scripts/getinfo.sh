@@ -3,7 +3,7 @@
 #某些rec可能getprop会报错，干脆重写了一个获取ROM信息的函数
 getName(){
     unset getValue
-    [ -f $2 ] && getValue=`grep "${1}=" $2 | cut -d'=' -f2 | sed 's# ##g' | tr -d '\n\r'`
+    [ -f $2 ] && getValue=`grep "${1}=" $2 | sed -n '$p' | cut -d'=' -f2 | sed 's# ##g' | tr -d '\n\r'`
 }
 
 ##

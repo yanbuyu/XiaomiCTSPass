@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/matisse/matisse:12/SP1A.210812.016/V13.0.8.0.SLKCNXM:user/release-keys
+ro.build.description=matisse-user 12 SP1A.210812.016 V13.0.8.0.SLKCNXM release-keys
+ro.build.version.security_patch=2022-02-01

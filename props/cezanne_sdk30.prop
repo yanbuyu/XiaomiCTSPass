@@ -1,3 +1,3 @@
-ro.build.fingerprint=Redmi/cezanne/cezanne:11/RP1A.200720.011/V12.5.7.0.RJNCNXM:user/release-keys
-ro.build.description=cezanne-user 11 RP1A.200720.011 V12.5.7.0.RJNCNXM release-keys
-ro.build.version.security_patch=2021-10-01
+ro.build.fingerprint=Redmi/cezanne/cezanne:11/RP1A.200720.011/V12.5.11.0.RJNCNXM:user/release-keys
+ro.build.description=cezanne-user 11 RP1A.200720.011 V12.5.11.0.RJNCNXM release-keys
+ro.build.version.security_patch=2022-02-01

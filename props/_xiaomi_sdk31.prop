@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/cupid/cupid:12/SKQ1.211006.001/V13.0.23.0.SLCCNXM:user/release-keys
-ro.build.description=cupid-user 12 SKQ1.211006.001/V13.0.23.0.SLCCNXM release-keys
-ro.build.version.security_patch=2021-12-01
+ro.build.fingerprint=Xiaomi/cupid/cupid:12/SKQ1.211006.001/V13.0.28.0.SLCCNXM:user/release-keys
+ro.build.description=cupid-user 12 SKQ1.211006.001 V13.0.28.0.SLCCNXM release-keys
+ro.build.version.security_patch=2022-02-01
