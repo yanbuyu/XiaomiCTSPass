@@ -44,7 +44,7 @@ fi
 getName "ro.product.model" $systemBuildProp
 MODEL="$getValue"
 ##获取build_xxx.prop路径
-vendorBuildProps=$(ls /vendor/*.prop 2>/dev/null)
+vendorBuildProps=$(ls /vendor/*build*.prop | sed 's#/vendor/build.prop##' 2>/dev/null)" /vendor/build.prop"
 for buildProp in $vendorBuildProps;do
     getName "ro.product.vendor.device" $buildProp
     if [ "$getValue" ] && [ "$getValue" == "$DEVICE" ] && [ ! "$MODEL" ];then
@@ -58,6 +58,12 @@ if [ ! "$MODEL" ];then
     getName "ro.product.vendor.model" $vendorBuildProp
     MODEL="$getValue"
 fi
+##兼容sgsi
+if [ ! "$MODEL" ];then
+    getName "ro.product.system.model" $systemBuildProp
+    MODEL="$getValue"
+fi
+
 ##判断是否为小米或红米
 getName "ro.build.fingerprint=" $systemBuildProp
 fingerprint="$getValue"
