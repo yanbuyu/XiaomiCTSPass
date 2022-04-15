@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/equuleus/equuleus:10/QKQ1.190828.002/V12.5.1.0.QECCNXM:user/release-keys
-ro.build.description=equuleus-user 10 QKQ1.190828.002 V12.5.1.0.QECCNXM release-keys
+ro.build.fingerprint=Xiaomi/equuleus/equuleus:10/QKQ1.190828.002/V12.5.2.0.QECCNXM:user/release-keys
+ro.build.description=equuleus-user 10 QKQ1.190828.002 V12.5.2.0.QECCNXM release-keys
 ro.build.version.security_patch=2020-12-01

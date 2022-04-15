@@ -1,0 +1,3 @@
+ro.build.fingerprint=redmi/vnd_ares/ares:12/SP1A.210812.016/V13.0.4.0.SKJCNXM:user/release-keys
+ro.build.description=ares-user 12 SP1A.210812.016 V13.0.4.0.SKJCNXM release-keys
+ro.build.version.security_patch=2022-02-01

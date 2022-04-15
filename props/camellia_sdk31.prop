@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/camellia/camellia:12/SP1A.210812.016/V13.0.4.0.SKSCNXM:user/release-keys
+ro.build.description=camellia-user 12 SP1A.210812.016 V13.0.4.0.SKSCNXM release-keys
+ro.build.version.security_patch=2022-03-01
