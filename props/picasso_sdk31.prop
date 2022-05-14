@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/picasso_48m/picasso:12/SKQ1.211006.001/V13.0.1.0.SGICMXM:user/release-keys
+ro.build.description=picasso-user 12 SKQ1.211006.001 V13.0.1.0.SGICMXM release-keys
+ro.build.version.security_patch=2022-04-01

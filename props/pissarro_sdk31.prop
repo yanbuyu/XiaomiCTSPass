@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/vnd_pissarro/pissarro:12/SP1A.210812.016/V13.0.2.0.SKTCNXM:user/release-keys
+ro.build.description=pissarro-user 12 SP1A.210812.016 V13.0.2.0.SKTCNXM release-keys
+ro.build.version.security_patch=2022-04-01

@@ -1,3 +1,3 @@
-ro.build.fingerprint=Redmi/pissarro/pissarro:11/RP1A.200720.011/V12.5.15.0.RKTCNXM:user/release-keys
-ro.build.description=pissarro-user 11 RP1A.200720.011 V12.5.15.0.RKTCNXM release-keys
-ro.build.version.security_patch=2022-01-01
+ro.build.fingerprint=Redmi/pissarro/pissarro:11/RP1A.200720.011/V12.5.18.0.RKTCNXM:user/release-keys
+ro.build.description=pissarro-user 11 RP1A.200720.011 V12.5.18.0.RKTCNXM release-keys
+ro.build.version.security_patch=2022-02-01

@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/vangogh/vangogh:12/SKQ1.211006.001/V13.0.2.0.SJVCNXM:user/release-keys
+ro.build.description=vangogh-user 12 SKQ1.211006.001 V13.0.2.0.SJVCNXM release-keys
+ro.build.version.security_patch=2022-03-01

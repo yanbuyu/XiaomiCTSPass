@@ -1,5 +1,5 @@
 
-## v1.5.2更新日志
+## v1.5.2-v1.5.3更新日志
 
 1.更新以下机型的属性配置:
 
@@ -7,37 +7,65 @@
 
 - Redmi NOTE10  Android 12
 
-- Redmi K40 游戏增强版  Android 12
-
 - 小米10至尊纪念版  Android 12
 
-- Redmi NOTE10 Pro  Android 12
+- 小米10S  Android 12
+
+- 小米10青春版  Android 12
 
 - 小米9 Pro  Android 11
 
+- 小米平板5  Android 11
+
 - 小米平板5 Pro WiFi  Android 11
+
+- 小米平板5 Pro 5G  Android 11
 
 - 小米8屏幕指纹版  Android 10
 
 - Redmi NOTE11 5G  Android 11
 
+- Redmi NOTE11 5G  Android 12
+
+- Redmi NOTE10 Pro  Android 12
+
 - Redmi NOTE9 Pro  Android 12
 
 - 小米Civi  Android 12
 
-- Redmi K40S  Android 12
-
-- 小米平板5  Android 11
+- 小米12  Android 12
 
 - 小米12X  Android 11
 
+- 小米12X  Android 12
+
+- 小米12 Pro  Android 12
+
 - 小米CC9  Android 11
+
+- 小米11  Android 12
 
 - 小米11 青春版  Android 12
 
 - Redmi K50  Android 12
 
+- Redmi K50 Pro  Android 12
+
+- Redmi K50 电竞版  Android 12
+
+- Redmi K40 游戏增强版  Android 12
+
+- Redmi K40  Android 12
+
+- Redmi K40S  Android 12
+
+- Redmi K30 5G  Android 12
+
 - 小米11 Ultra  Android 12
+
+- 小米Civi 1S  Android 12
+
+- 小米 MIX Fold  Android 11
 
 2.更新模块脚本
 
