@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/bomb/bomb:12/SP1A.210812.016/V13.0.2.0.SJLCNXM:user/release-keys
+ro.build.description=bomb-user 12 SP1A.210812.016 V13.0.2.0.SJLCNXM release-keys
+ro.build.version.security_patch=2022-05-01

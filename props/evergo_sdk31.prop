@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/evergo/evergo:12/SP1A.210812.016/V13.0.3.0.SGBCNXM:user/release-keys
+ro.build.description=evergo-user 12 SP1A.210812.016 V13.0.3.0.SGBCNXM release-keys
+ro.build.version.security_patch=2022-04-01

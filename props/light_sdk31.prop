@@ -1,3 +1,3 @@
-ro.build.fingerprint=Redmi/light/light:12/SP1A.210812.016/V13.0.3.0.SLSCNXM:user/release-keys
-ro.build.description=light-user 12 SP1A.210812.016 V13.0.3.0.SLSCNXM release-keys
-ro.build.version.security_patch=2022-02-01
+ro.build.fingerprint=Redmi/light/light:12/SP1A.210812.016/V13.0.6.0.SLSCNXM:user/release-keys
+ro.build.description=light-user 12 SP1A.210812.016 V13.0.6.0.SLSCNXM release-keys
+ro.build.version.security_patch=2022-04-01

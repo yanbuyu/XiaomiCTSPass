@@ -72,18 +72,18 @@
 | Redmi K30 4G | phoenix | Android 10 | Android 12 | √ |
 | Redmi K30 5G | picasso | Android 10 | Android 12 | √ |
 | Redmi K30 Pro | lmi | Android 10 | Android 12 | √ |
-| Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 11 | √ |
+| Redmi K30 至尊纪念版 | cezanne | Android 10 | Android 12 | √ |
 | Redmi K30S 至尊纪念版 | apollo  | Android 10 | Android 12 | √ |
 | Redmi K20 | davinci | Android 9 | Android 11 | × |
 | Redmi K20 Pro | raphael | Android 9 | Android 11 | × |
 | Redmi 10 5G | light | Android 12 | Android 12 | √ |
-| Redmi 10X 5G | atom | Android 10 | Android 11 | √ |
-| Redmi 10X Pro 5G | bomb | Android 10 | Android 11 | √ |
+| Redmi 10X 5G | atom | Android 10 | Android 12 | √ |
+| Redmi 10X Pro 5G | bomb | Android 10 | Android 12 | √ |
 | Redmi NOTE11 Pro | pissarro | Android 11 | Android 12 | √ |
 | Redmi NOTE11 5G | evergo | Android 11 | Android 11 | √ |
 | Redmi NOTE11 4G | selene | Android 11 | Android 11 | √ |
 | Redmi NOTE10 Pro | chopin | Android 11 | Android 12 | √ |
-| Redmi NOTE10 | camellia | Android 11 | Android 11 | √ |
+| Redmi NOTE10 | camellia | Android 11 | Android 12 | √ |
 | Redmi NOTE9 | cannon | Android 10 | Android 11 | √ |
 | Redmi NOTE9 Pro | gauguin | Android 10 | Android 12 | √ |
 | Redmi NOTE8 | ginkgo | Android 9 | Android 11 | × |

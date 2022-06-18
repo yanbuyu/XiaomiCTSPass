@@ -1,3 +1,3 @@
-ro.build.fingerprint=Redmi/ingres/ingres:12/SKQ1.211006.001/V13.0.8.0.SLJCNXM:user/release-keys
-ro.build.description=ingres-user 12 SKQ1.211006.001 V13.0.8.0.SLJCNXM release-keys
-ro.build.version.security_patch=2022-03-01
+ro.build.fingerprint=Redmi/ingres/ingres:12/SKQ1.211006.001/V13.0.9.0.SLJCNXM:user/release-keys
+ro.build.description=ingres-user 12 SKQ1.211006.001 V13.0.9.0.SLJCNXM release-keys
+ro.build.version.security_patch=2022-05-01

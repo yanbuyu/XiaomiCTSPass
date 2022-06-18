@@ -1,4 +1,59 @@
 
+## v1.5.4
+
+1.更新以下机型的属性配置:
+
+- 小米 MIX4  Android 12
+
+- 小米12X  Android 12
+
+- 小米10  Android 12
+
+- 小米10至尊纪念版  Android 12
+
+- 小米10 Pro  Android 12
+
+- 小米10S  Android 12
+
+- 小米10青春版  Android 12
+
+- 小米平板5 Pro WiFi  Android 11
+
+- 小米平板5 Pro  Android 11
+
+- 小米平板5  Android 11
+
+- Redmi K50  Android 12
+
+- Redmi K50 Pro  Android 12
+
+- Redmi K50 电竞版  Android 12
+
+- Redmi K40  Android 12
+
+- Redmi K40 游戏增强版  Android 12
+
+- Redmi K30 4G  Android 12
+
+- Redmi K30 5G  Android 12
+
+- Redmi K30 Pro  Android 12
+
+- Redmi K30 至尊纪念版  Android 12
+
+- Redmi K30S 至尊纪念版  Android 12
+
+- Redmi 10 5G  Android 12
+
+- Redmi 10X 5G  Android 12
+
+- Redmi 10X Pro  Android 12
+
+- Redmi NOTE11 5G  Android 11  Android 12
+
+- Redmi NOTE10 Pro  Android 11  Android 12
+
+
 ## v1.5.2-v1.5.3更新日志
 
 1.更新以下机型的属性配置:

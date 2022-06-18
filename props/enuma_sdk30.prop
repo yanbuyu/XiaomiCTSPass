@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/enuma/enuma:11/RKQ1.200826.002/V13.0.5.0.RKZCNXM:user/release-keys
-ro.build.description=enuma-user 11 RKQ1.200826.002 V13.0.5.0.RKZCNXM release-keys
-ro.build.version.security_patch=2022-02-01
+ro.build.fingerprint=Xiaomi/enuma/enuma:11/RKQ1.200826.002/V13.0.6.0.RKZCNXM:user/release-keys
+ro.build.description=enuma-user 11 RKQ1.200826.002 V13.0.6.0.RKZCNXM release-keys
+ro.build.version.security_patch=2022-05-01

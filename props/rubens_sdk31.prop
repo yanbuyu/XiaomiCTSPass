@@ -1,3 +1,3 @@
-ro.build.fingerprint=Redmi/rubens/rubens:12/SP1A.210812.016/V13.0.13.0.SLNCNXM:user/release-keys
-ro.build.description=rubens-user 12 SP1A.210812.016 V13.0.13.0.SLNCNXM release-keys
-ro.build.version.security_patch=2022-04-01
+ro.build.fingerprint=Redmi/rubens/rubens:12/SP1A.210812.016/V13.0.21.0.SLNCNXM:user/release-keys
+ro.build.description=rubens-user 12 SP1A.210812.016 V13.0.21.0.SLNCNXM release-keys
+ro.build.version.security_patch=2022-06-01

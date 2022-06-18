@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/atom/atom:12/SP1A.210812.016/V13.0.2.0.SJHCNXM:user/release-keys
+ro.build.description=atom-user 12 SP1A.210812.016 V13.0.2.0.SJHCNXM release-keys
+ro.build.version.security_patch=2022-05-01

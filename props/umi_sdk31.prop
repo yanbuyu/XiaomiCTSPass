@@ -1,3 +1,3 @@
-ro.build.fingerprint=Xiaomi/umi/umi:12/SKQ1.211006.001/V13.0.4.0.SJBCNXM:user/release-keys
-ro.build.description=umi-user 12 SKQ1.211006.001 V13.0.4.0.SJBCNXM release-keys
-ro.build.version.security_patch=2022-02-01
+ro.build.fingerprint=Xiaomi/umi/umi:12/SKQ1.211006.001/V13.0.6.0.SJBCNXM:user/release-keys
+ro.build.description=umi-user 12 SKQ1.211006.001 V13.0.6.0.SJBCNXM release-keys
+ro.build.version.security_patch=2022-05-01
