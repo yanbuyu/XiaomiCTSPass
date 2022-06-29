@@ -39,6 +39,9 @@ if [ ! "$DEVICE" ];then
     getName "ro.product.vendor.device" $vendorBuildProp
     DEVICE="$getValue"
 fi
+##对一个包对应多个机型代号的情况进行特殊处理
+newName=$(getprop "ro.boot.hardware.sku" 2>/dev/null)
+[[ "$newName" ]] && DEVICE="$newName"
 
 ##获取老设备型号
 getName "ro.product.model" $systemBuildProp
