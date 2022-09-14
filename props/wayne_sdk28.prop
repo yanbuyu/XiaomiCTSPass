@@ -1,0 +1,3 @@
+ro.build.fingerprint=xiaomi/wayne/wayne:9/PKQ1.180904.001/9.8.22:user/release-keys
+ro.build.description=wayne-user 9 PKQ1.180904.001 9.8.22 release-keys
+ro.build.version.security_patch=2019-09-05
