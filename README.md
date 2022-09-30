@@ -65,6 +65,7 @@
 | Redmi K50 | rubens | Android 12 | Android 12 | √ |
 | Redmi K50 Pro | matisse | Android 12 | Android 12 | √ |
 | Redmi K50 电竞版 | ingres | Android 12 | Android 12 | √ |
+| Redmi K50 Ultra | diting | Android 12 | Android 12 | √ |
 | Redmi K40 | alioth | Android 11 | Android 12 | √ |
 | Redmi K40S | munch | Android 12 | Android 12 | √ |
 | Redmi K40 Pro/Plus | haydn | Android 11 | Android 12 | √ |
