@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/diting/diting:12/SKQ1.220303.001/V13.0.4.0.SLFCNXM:user/release-keys
+ro.build.description=diting-user 12 SKQ1.220303.001 V13.0.4.0.SLFCNXM release-keys
+ro.build.version.security_patch=2022-07-01
