@@ -30,6 +30,7 @@
 | 小米 MIX3 | perseus | Android 9 | Android 10 | × |
 | 小米 MIX2 | chiron | Android 7.1 | Android 9 | × |
 | 小米 MIX2S | polaris | Android 9 | Android 10 | × |
+| 小米12S Pro | unicorn | Android 12 | Android 13 | √ |
 | 小米12 Pro | zeus | Android 12 | Android 12 | √ |
 | 小米12 | cupid | Android 12 | Android 12 | √ |
 | 小米12X | psyche | Android 11 | Android 12 | √ |
