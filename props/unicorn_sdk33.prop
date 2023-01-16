@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/unicorn/unicorn:13/SKQ1.220303.001/V14.0.4.0.TLECNXM:user/release-keys
+ro.build.description=unicorn-user 13 SKQ1.220303.001 V14.0.4.0.TLECNXM release-keys
+ro.build.version.security_patch=2022-12-01
