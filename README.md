@@ -62,6 +62,7 @@
 | 小米平板5 Pro | enuma | Android 11 | Android 11 | √ |
 | 小米平板5 | nabu | Android 11 | Android 11 | √ |
 | 小米平板4 | clover | Android 8.1 | Android 8.1 | × |
+| Redmi K60 | mondrian | Android 13 | Android 13 | √ |
 | Redmi K50 | rubens | Android 12 | Android 12 | √ |
 | Redmi K50 Pro | matisse | Android 12 | Android 12 | √ |
 | Redmi K50 电竞版 | ingres | Android 12 | Android 12 | √ |
