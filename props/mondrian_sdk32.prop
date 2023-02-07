@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/mondrian/mondrian:13/TKQ1.220905.001/V14.0.11.0.TMNCNXM:user/release-keys
+ro.build.description=mondrian-user 13 TKQ1.220905.001 V14.0.11.0.TMNCNXM release-keys
+ro.build.version.security_patch=2022-12-01
