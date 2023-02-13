@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/cupid/cupid:13/TKQ1.220807.001/V14.0.3.0.TLCCNXM:user/release-keys
+ro.build.description=cupid-user 13 TKQ1.220807.001 V14.0.3.0.TLCCNXM release-keys
+ro.build.version.security_patch=2022-12-01
