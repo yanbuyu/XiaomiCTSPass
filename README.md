@@ -19,6 +19,7 @@
 - 若Magisk为非zygisk版，刷完后必须开启magisk hide。
 - 若系统是2021年8月份后的MIUI版本或Magisk为zygisk版，XiaomiCTSPass模块必须搭配[Universal SafetyNet Fix模块](https://github.com/kdrag0n/safetynet-fix)使用。
 - 禁用或启用XiaomiCTSPass模块时，需重新载入参数，首次开机时间变长属于正常情况。
+- 若要使用KernelSU驱动此模块，请务必配合[Zygisk on KernelSU](https://github.com/Dr-TSNG/ZygiskOnKernelSU)使用。
 
 #### 支持机型
 - 后续会支持更多机型
