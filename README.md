@@ -80,7 +80,7 @@
 | Redmi 10 5G | light | Android 12 | Android 12 | √ |
 | Redmi 10X 5G | atom | Android 10 | Android 12 | √ |
 | Redmi 10X Pro 5G | bomb | Android 10 | Android 12 | √ |
-| Redmi NOTE11 5G | evergo | Android 11 | Android 11 | √ |
+| Redmi NOTE12 5G | sunstone | Android 12 | Android 13 | √ |
 | Redmi NOTE11 Pro | pissarro | Android 11 | Android 12 | √ |
 | Redmi NOTE11 5G | evergo | Android 11 | Android 11 | √ |
 | Redmi NOTE11 4G | selene | Android 11 | Android 11 | √ |
