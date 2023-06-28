@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/liuqin/liuqin:13/TKQ1.221114.001/V14.0.5.0.TMYCNXM:user/release-keys
+ro.build.description=liuqin-user 13 TKQ1.221114.001 V14.0.5.0.TMYCNXM release-keys
+ro.build.version.security_patch=2023-05-01
