@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/nuwa/nuwa:14/UKQ1.230705.002/V14.0.0.4.UMBCNXM:user/release-keys
+ro.build.description=nuwa-user 14 UKQ1.230705.002 V14.0.0.4.UMBCNXM release-keys
+ro.build.version.security_patch=2023-08-05
