@@ -1,0 +1,3 @@
+ro.build.fingerprint=Redmi/socrates/socrates:13/TKQ1.220905.001/V14.0.24.0.TMKCNXM:user/release-keys
+ro.build.description=socrates-user 13 TKQ1.220905.001 V14.0.24.0.TMKCNXM release-keys
+ro.build.version.security_patch=2023-07-01

@@ -30,6 +30,9 @@
 | 小米 MIX3 | perseus | Android 9 | Android 10 | × |
 | 小米 MIX2 | chiron | Android 7.1 | Android 9 | × |
 | 小米 MIX2S | polaris | Android 9 | Android 10 | × |
+| 小米13 Ultra | ishtar | Android 13 | Android 13 | √ |
+| 小米13 Pro | nuwa | Android 13 | Android 14 | √ |
+| 小米13 | fuxi | Android 13 | Android 14 | √ |
 | 小米12 Pro | zeus | Android 12 | Android 12 | √ |
 | 小米12 | cupid | Android 12 | Android 12 | √ |
 | 小米12X | psyche | Android 11 | Android 12 | √ |
@@ -62,6 +65,7 @@
 | 小米平板5 Pro | enuma | Android 11 | Android 11 | √ |
 | 小米平板5 | nabu | Android 11 | Android 11 | √ |
 | 小米平板4 | clover | Android 8.1 | Android 8.1 | × |
+| Redmi K60 Pro | socrates | Android 13 | Android 13 | √ |
 | Redmi K50 | rubens | Android 12 | Android 12 | √ |
 | Redmi K50 Pro | matisse | Android 12 | Android 12 | √ |
 | Redmi K50 电竞版 | ingres | Android 12 | Android 12 | √ |

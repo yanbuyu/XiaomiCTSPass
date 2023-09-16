@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/fuxi/fuxi:13/TKQ1.220905.001/V14.0.31.0.TMCCNXM:user/release-keys
+ro.build.description=fuxi-user 13 TKQ1.220905.001 V14.0.31.0.TMCCNXM release-keys
+ro.build.version.security_patch=2023-08-01
