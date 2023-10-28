@@ -1,0 +1,3 @@
+ro.build.fingerprint=Xiaomi/psyche/psyche:13/TKQ1.220829.002/V14.0.10.0.TLDCNXM:user/release-keys
+ro.build.description=psyche-user 13 TKQ1.220829.002 V14.0.10.0.TLDCNXM release-keys
+ro.build.version.security_patch=2023-08-01
